@@ -1,0 +1,14 @@
+.cards .img-holder img{
+    transform: scale(0.8);
+}
+.cards .img-holder{
+    background: linear-gradient( to bottom, #3B065E, #450F87);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cards main{
+    min-width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 15px lightgrey;
+}
