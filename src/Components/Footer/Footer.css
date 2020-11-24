@@ -4,6 +4,7 @@
 }
 .footer ul{
     list-style: none;
+    cursor: pointer;
 }
 .footer .margin{
     margin-left: 38px;
@@ -11,4 +12,26 @@
 }
 .footer-form{
     background: #272F94;
+}
+.footer-form main{
+    background: white;
+    padding: 60px 0;
+    border-radius: 10px;
+}
+.footer-form .submit-btn{
+    color: white;
+    background: #FF1947;
+    padding: 0 20px;
+}
+.footer-form .email-field{
+    background: #E5E5ED;
+    padding:0 10px;
+    margin: 0 10px;
+    width: 300px;
+}
+.footer-form input{
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
 }
