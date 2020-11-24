@@ -1,0 +1,14 @@
+.footer{
+    color: lightgrey;
+    background: #272F94;
+}
+.footer ul{
+    list-style: none;
+}
+.footer .margin{
+    margin-left: 38px;
+    font-weight: 400;
+}
+.footer-form{
+    background: #272F94;
+}
