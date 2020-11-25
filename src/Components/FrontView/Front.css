@@ -1,3 +1,18 @@
 .front-section{
-    background: linear-gradient(to right bottom, #13064E, #3B065E, #450F87)
+    background: linear-gradient(to right bottom, #13064E, #13064E, #3B065E, #450F87)
+}
+.front-section .left{
+    color: white;
+}
+.front-section button{
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    background: #FF1947;
+    color: white;
+    border-radius: 40px;
+}
+.front-section h6{
+    color: #40AAE5;
 }
