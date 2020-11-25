@@ -1,0 +1,13 @@
+.testimonial .arrow{
+    color: black !important;
+    transform:  scale(3);
+}
+.testimonial .left{
+    margin-left: -80%;
+}
+.testimonial .right{
+    margin-right: -80%;
+}
+.testimonial .stars svg{
+    color: gold;
+}
