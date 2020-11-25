@@ -6,7 +6,7 @@ import Search from '../../Images/Search.png'
 
 const Top = () => {
     return (
-        <section className="top container py-2 d-flex justify-content-between align-items-center">
+        <section className="top container py-3 d-flex justify-content-between align-items-center">
             <img src={Logo} alt="Rokomari Logo" />
             <div className="search-box-holder">
                 <form className="d-flex w-100">

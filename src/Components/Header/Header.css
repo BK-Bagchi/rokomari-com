@@ -28,6 +28,10 @@
     background: #0397D3;
     border-radius: 0 4px 4px 0;
 }
+.navbar{
+    border-top: 1px solid lightgrey;
+    background: white !important;
+}
 .navbar a{
     color: #000 !important;
     font-weight: 600;
