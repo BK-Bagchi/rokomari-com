@@ -2,13 +2,21 @@
     transform: scale(0.8);
 }
 .cards .img-holder{
-    background: linear-gradient( to bottom, #3B065E, #450F87);
-    height: 80px;
-    width: 80px;
+    background: linear-gradient( to bottom, #8F05DF, #4611D5);
+    height: 85px;
+    width: 85px;
     border-radius: 50%;
+    transform: scale(0.85);
 }
 .cards main{
-    min-width: 200px;
-    height: 200px;
+    min-width: 210px;
+    height: 210px;
     box-shadow: 3px 3px 15px lightgrey;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cards main:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 15px darkgrey;
 }
