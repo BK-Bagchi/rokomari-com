@@ -10,7 +10,11 @@
     font-weight: 400;
 }
 .footer-form{
-    background: #272F94;
+    height: 380px;
+    background-image: url('../../Images/Footer_BG.PNG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer-form main{
     background: white;
@@ -33,4 +37,7 @@
     outline: none;
     height: 45px;
     border-radius: 5px;
+}
+.wave-bg{
+    background: white;
 }

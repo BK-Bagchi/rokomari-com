@@ -11,3 +11,6 @@
 .testimonial .stars svg{
     color: gold;
 }
+.testimonial main{
+    min-height: 150px;
+}
