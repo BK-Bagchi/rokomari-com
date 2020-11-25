@@ -1,3 +1,33 @@
+.top .search-box-holder{
+    width: 50%;
+}
+.top .search-box,
+.top .search-btn{
+    height: 45px;
+    border: none;
+    outline: none;
+}
+.top .items{
+    height:  45px;
+    border-bottom: 3px solid gold;
+    background: white;
+    z-index: 11;
+    padding: 0 10px;
+    box-shadow: 0px 3px 15px lightgrey;
+    border-radius: 4px 0 0 4px;
+}
+.top .search-box{
+    width: 80%;
+    box-shadow: 0px 3px 15px lightgrey;
+    border-left: 1px solid lightgrey;
+    border-bottom: 3px solid gold;
+    padding: 0 10px;
+}
+.top .search-btn{
+    width: 50px;
+    background: #0397D3;
+    border-radius: 0 4px 4px 0;
+}
 .nav ul{
     list-style: none;
 }
