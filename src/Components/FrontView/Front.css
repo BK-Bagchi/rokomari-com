@@ -3,16 +3,26 @@
 }
 .front-section .left{
     color: white;
+    padding-left: 0 !important;
+}
+.front-section .right{
+    padding-right: 0 !important;
 }
 .front-section button{
     width: 150px;
     border: none;
     outline: none;
     padding: 7px 0;
+    font-size: 20px;
     background: #FF1947;
     color: white;
     border-radius: 40px;
 }
 .front-section h6{
     color: #40AAE5;
+    font-size: 20px;
+}
+.front-section h1{
+    font-size: 68px;
+    font-weight: 400;
 }

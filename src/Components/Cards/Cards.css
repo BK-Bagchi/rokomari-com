@@ -9,12 +9,19 @@
     transform: scale(0.85);
 }
 .cards main{
-    min-width: 210px;
-    height: 210px;
+    min-width: 230px;
+    height: 235px;
+    color: #28246C;
     box-shadow: 3px 3px 15px lightgrey;
     border-radius: 3px;
     transition: 0.5s;
     cursor: pointer;
+    background: white;
+    z-index: 11;
+    background-image: url('../../Images/Card-BG.PNG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cards main:hover{
     transform: scale(1.1);

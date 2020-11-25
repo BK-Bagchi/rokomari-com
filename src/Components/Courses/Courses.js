@@ -3,12 +3,13 @@ import './Courses.css'
 import courseInfo from './courseInfo'
 import Calender from '../../Images/Calender.png'
 import Seat from '../../Images/Seat.png'
+import Dot from '../../Images/BG_DOT_DOT.png'
 
 const Courses = () => {
     return (
-        <section className="online-courses">
+        <section className="online-courses position-relative pb-5">
             <div className="container d-flex flex-column align-items-center">
-                <h1 className="text-muted my-5">Online Courses</h1>
+                <h1 className="text-muted name">Online Courses</h1>
                 <div className="d-flex flex-wrap align-items-center justify-content-center">
                     {
                         courseInfo.map(course => {
@@ -47,6 +48,8 @@ const Courses = () => {
                 </div>
                 <button className="view-course my-5">View All Courses</button>
             </div>
+            <img src={Dot} alt="Dot Background Img" className="dot-bg-top" />
+            <img src={Dot} alt="Dot Background Img" className="dot-bg-bottom" />
         </section>
     );
 };

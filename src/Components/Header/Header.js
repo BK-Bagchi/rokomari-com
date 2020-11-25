@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import Navbar from './Navbar'
 import Top from './Top'
 
 const Header = () => {
+    const [item, setItem] = useState('Books')
     return (
         <>
-            <Top />
-            <Navbar />
+            <Top item={item} />
+            <Navbar setItem={setItem} />
         </>
     );
 };

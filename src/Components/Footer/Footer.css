@@ -10,11 +10,14 @@
     font-weight: 400;
 }
 .footer-form{
-    height: 380px;
+    height: 400px;
     background-image: url('../../Images/Footer_BG.PNG');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.footer-form h3{
+    color: #1005D1;
 }
 .footer-form main{
     background: white;
@@ -31,12 +34,14 @@
     padding:0 10px;
     margin: 0 10px;
     width: 300px;
+    margin-left: 0;
 }
 .footer-form input{
     border: none;
     outline: none;
     height: 45px;
     border-radius: 5px;
+    margin: 10px 0;
 }
 .wave-bg{
     background: white;

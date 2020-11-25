@@ -15,7 +15,7 @@ const Cards = () => {
                             </div>
                             <div className="this-card text-center">
                                 <h4 className="mt-2">{main}</h4>
-                                <h6>{text}</h6>
+                                <h6 className="text-muted">{text}</h6>
                             </div>
                         </main>
                     )

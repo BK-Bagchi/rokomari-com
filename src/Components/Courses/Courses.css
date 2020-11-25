@@ -6,6 +6,13 @@
     border-radius: 12px;
     min-width: 320px;
     width: 350px;
+    box-shadow: 3px 3px 15px lightgrey;
+    transition: 0.5s;
+    z-index: 11;
+}
+.online-courses main:hover{
+    transform: scale(1.03);
+    box-shadow: 3px 3px 15px darkgrey;
 }
 .online-courses .holder{
     margin-top: -40px;
@@ -41,6 +48,7 @@
     background: white;
     border: 2px solid #FF1947;
     font-weight: 500;
+    z-index: 11;
 }
 .online-courses footer{
     height: 30px;
@@ -49,4 +57,21 @@
 }
 .online-courses footer img{
     height: 24px;
+}
+.online-courses .dot-bg-top,
+.online-courses .dot-bg-bottom{
+    position: absolute;
+    transform: scale(0.8);
+    z-index: 0;
+}
+.online-courses .dot-bg-top{
+    left: 10%;
+    bottom: -115px;
+}
+.online-courses .dot-bg-bottom{
+    right: 10%;
+    top: -115px;
+}
+.online-courses .name{
+    margin: 100px 0;
 }

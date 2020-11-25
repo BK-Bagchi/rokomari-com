@@ -14,3 +14,6 @@
 .testimonial main{
     min-height: 150px;
 }
+.testimonial h1{
+    z-index: 11;
+}

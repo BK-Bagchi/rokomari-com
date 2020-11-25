@@ -10,7 +10,7 @@ import { faChevronLeft, faChevronRight, faStar } from '@fortawesome/free-solid-s
 const Swipe = ({ User, name }) => {
     return (
         <main className="row d-flex align-items-center justify-content-center px-5">
-            <div className="col-md-3 px-5">
+            <div className="col-md-3 px-5 d-flex justify-content-center">
                 <img className="w-75" src={User} alt="Testimonial Guy" />
             </div>
             <div className="col-md-9 px-5">

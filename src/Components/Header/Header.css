@@ -28,6 +28,9 @@
     background: #0397D3;
     border-radius: 0 4px 4px 0;
 }
+.top form{
+    min-width: 80%;
+}
 .navbar{
     border-top: 1px solid lightgrey;
     background: white !important;

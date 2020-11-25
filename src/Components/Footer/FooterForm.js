@@ -6,7 +6,7 @@ const FooterForm = () => {
             <main className="container px-4 align-self-end">
                 <div className="row w-100 m-0 d-flex align-items-center justify-content-center">
                     <div className="col-md-6">
-                        <h3 className="text-dark">Subscribe to Our Newsletter</h3>
+                        <h3>Subscribe to Our Newsletter</h3>
                         <p className="text-muted">Don't miss any updates of our new Course and all the astonishing offers.</p>
                     </div>
                     <div className="col-md-6">

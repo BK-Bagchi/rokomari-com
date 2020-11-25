@@ -4,22 +4,26 @@ import Cart from '../../Images/Cart.png'
 import User from '../../Images/User.png'
 import Search from '../../Images/Search.png'
 
-const Top = () => {
+const Top = ({ item }) => {
     return (
-        <section className="top container py-3 d-flex justify-content-between align-items-center">
-            <img src={Logo} alt="Rokomari Logo" />
-            <div className="search-box-holder">
-                <form className="d-flex w-100">
-                    <p className="m-0 items d-flex align-items-center">Books</p>
-                    <input type="text" placeholder="Search by book name" className="search-box" />
-                    <button className="search-btn">
-                        <img src={Search} alt="Search Icon" />
-                    </button>
-                </form>
-            </div>
-            <div className="extras">
-                <img src={Cart} alt="Cart" className="mx-2" />
-                <img src={User} alt="User" className="mx-2" />
+        <section className="top container">
+            <div className="row d-flex justify-content-between align-items-center">
+                <div className="col-md-2 d-flex my-3 justify-content-md-start">
+                    <img src={Logo} alt="Rokomari Logo" />
+                </div>
+                <div className="col-md-8 search-box-holder d-flex my-3 justify-content-md-center align-items-center w-100">
+                    <form className="d-flex">
+                        <p className="m-0 items d-flex align-items-center">{item}</p>
+                        <input type="text" placeholder="Search by book name" className="search-box" />
+                        <button className="search-btn">
+                            <img src={Search} alt="Search Icon" />
+                        </button>
+                    </form>
+                </div>
+                <div className="col-md-2 extras d-flex my-3 justify-content-md-center">
+                    <img src={Cart} alt="Cart" className="mx-2" />
+                    <img src={User} alt="User" className="mx-2" />
+                </div>
             </div>
         </section>
     );
