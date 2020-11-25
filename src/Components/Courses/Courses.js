@@ -7,8 +7,8 @@ import Seat from '../../Images/Seat.png'
 const Courses = () => {
     return (
         <section className="online-courses">
-            <div className="container">
-                <h1 className="text-center my-5">Online Courses</h1>
+            <div className="container d-flex flex-column align-items-center">
+                <h1 className="text-muted my-5">Online Courses</h1>
                 <div className="d-flex flex-wrap align-items-center justify-content-center">
                     {
                         courseInfo.map(course => {
@@ -45,6 +45,7 @@ const Courses = () => {
                         })
                     }
                 </div>
+                <button className="view-course my-5">View All Courses</button>
             </div>
         </section>
     );
